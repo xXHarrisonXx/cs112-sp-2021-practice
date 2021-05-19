@@ -1,11 +1,9 @@
-package projectthree;
+package projectfour;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.*;
 
 public class KNNModel {
-    private final int k = 5;
+    private int k = 5;
     private List<DataPoint> testData;
     private List<DataPoint> trainData;
     private int trainSize;
@@ -16,6 +14,10 @@ public class KNNModel {
     private double trueNegative = 0.0;
 
     public KNNModel() {
+    }
+
+    public KNNModel(int k) {
+        this.k = k;
     }
 
 
@@ -112,6 +114,9 @@ public class KNNModel {
     }
 
 
+    public void setK(int k) {
+        this.k = k;
+    }
 
 
 }

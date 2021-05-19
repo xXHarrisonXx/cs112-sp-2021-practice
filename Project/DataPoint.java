@@ -1,4 +1,4 @@
-package projectthree;
+package projectfour;
 
 public class DataPoint {
 

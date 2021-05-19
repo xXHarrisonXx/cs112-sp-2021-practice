@@ -1,4 +1,4 @@
-package projectthree;
+package projectfour;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,7 +19,7 @@ public class Driver {
 
     private void initAndShowGUI(Double accuracy, Double precision) {
         JFrame myFrame = new JFrame();
-        myFrame.setTitle("Project Three");
+        myFrame.setTitle("Project");
         Container contentPane = myFrame.getContentPane();
         contentPane.setLayout(new GridLayout(5, 5));
         contentPane.add(new Label("k-value: "));
